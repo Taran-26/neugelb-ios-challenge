@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FDF78A1D2F8D4CE900BEEBA6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FDF78A1C2F8D4CD900BEEBA6 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		FDB6B6002F89FF090014B27F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		FDB6B5F22F89FF050014B27F /* Neugelb-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neugelb-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB6B5FF2F89FF090014B27F /* Neugelb-ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neugelb-ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB6B6092F89FF090014B27F /* Neugelb-ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neugelb-ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF78A1C2F8D4CD900BEEBA6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +84,7 @@
 				FDB6B6022F89FF090014B27F /* Neugelb-ChallengeTests */,
 				FDB6B60C2F89FF090014B27F /* Neugelb-ChallengeUITests */,
 				FDB6B5F32F89FF050014B27F /* Products */,
+				FDF78A1C2F8D4CD900BEEBA6 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDF78A1D2F8D4CE900BEEBA6 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
