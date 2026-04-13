@@ -58,7 +58,6 @@ extension MoviesListViewModel {
   }
   
   func search(query: String) {
-    
     searchTask?.cancel()
     
     let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -74,7 +73,6 @@ extension MoviesListViewModel {
   }
   
   func fetchSuggestions(query: String) {
-    
     suggestionTask?.cancel()
     
     let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
